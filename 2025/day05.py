@@ -18,7 +18,7 @@ def main():
                 silver += 1
                 break
 
-    # Combining ranges, ranged array is already ordered by start of ranges
+    # Combining ranges, 'ranges' array is already ordered by start of ranges
     unique_ranges = []
     start = None
     stop = None
