@@ -17,6 +17,10 @@ def main():
     columns = len(data[0])
 
     # Keep track of how many different beams go through each point
+    # Kind of a pascal triangle, but taking counts from:
+    # - directly above (uninterrupted beam)
+    # - sides (NW, NE) in cases where it comes from a split
+
     for i in range(rows-1):
         for j in range(columns):
             if isinstance(data[i][j], int):
