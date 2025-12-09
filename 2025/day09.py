@@ -28,7 +28,7 @@ def main():
         return a, b
 
     # Go through corner pairs
-    # Take the equations for the two diagonal passing through the rectangle corners
+    # Take the equations for the two diagonals passing through the rectangle corners
     # If the diagonals intersect with any of the border lines of the big area (between the corners points of the diagonal)
     # the rectangle is not completely within the big shape
 
